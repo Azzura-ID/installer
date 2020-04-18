@@ -1,3 +1,37 @@
-z="
-";Vz='3[1;';bBz=' "\0';Zz=' TOO';DBz=' != ';RBz=']';Dz='e [ ';Az='u="y';dz='T CO';az='LS';XBz='"3" ';sz='if [';KBz='sh s';JBz='p 2';fz='ASUK';BBz='van"';lz='read';Lz=' "';kz='7m"';GBz='e ~>';Nz='[1;3';FBz='"Cod';Hz='do';aBz='else';OBz=' [ $';Jz='r';YBz='fb.p';oz='ut ~';ZBz='y';Cz='whil';IBz='slee';xz='then';Kz='echo';WBz='p.py';fBz='DAK ';Pz='033[';Xz='LOGI';vz='= "1';ABz='angI';Iz='clea';cz='LIHA';qz='inpu';Mz='\033';Gz=' ]';NBz='elif';TBz='ools';Fz=' "y"';CBz='"$m"';PBz='t = ';Bz='"';dBz='NOMO';nz='"Inp';jz='G';hBz='fi';UBz='pyth';yz='n="B';iz='R BU';Rz='m1\0';ez='DEM';MBz='done';mz=' -p ';Oz='7m[\';QBz='"2" ';Sz='33[1';Qz='1;32';rz='t';wz='" ]';HBz=' " m';pz='> " ';Yz='N KE';gBz='ADA"';bz='m2\0';eBz='R TI';LBz='c';Wz='36m ';Uz=']\03';Tz=';37m';gz='m3\0';hz='LAPO';SBz='cd T';EBz='"$n"';tz=' $in';cBz=';31m';uz='put ';Ez='$u =';VBz='on2 ';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$z$Hz$z$Iz$Jz$z$Kz$Lz$z$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$z$Mz$Nz$Oz$Pz$Qz$bz$Sz$Tz$Uz$Vz$Wz$cz$dz$ez$fz$z$Mz$Nz$Oz$Pz$Qz$gz$Sz$Tz$Uz$Vz$Wz$hz$iz$jz$z$Mz$Nz$kz$z$lz$mz$nz$oz$pz$qz$rz$z$sz$tz$uz$vz$wz$z$xz$z$Iz$Jz$z$yz$ABz$BBz$z$Cz$Dz$CBz$DBz$EBz$Gz$z$Hz$z$lz$mz$FBz$GBz$HBz$z$IBz$JBz$z$KBz$LBz$z$MBz$z$NBz$OBz$qz$PBz$QBz$RBz$z$xz$z$SBz$TBz$z$UBz$VBz$WBz$z$NBz$OBz$qz$PBz$XBz$RBz$z$xz$z$SBz$TBz$z$UBz$VBz$YBz$ZBz$z$aBz$z$Kz$bBz$Sz$cBz$dBz$eBz$fBz$gBz$z$IBz$JBz$z$hBz$z$MBz"
+u="y"
+while [ $u = "y" ]
+do
+clear
+echo "
+\033[1;37m[\033[1;32m1\033[1;37m]\033[1;36m LOGIN KE TOOLS
+\033[1;37m[\033[1;32m2\033[1;37m]\033[1;36m LIHAT CODE MASUK
+\033[1;37m[\033[1;32m3\033[1;37m]\033[1;36m LAPOR BUG
+\033[1;37m"
+read -p "Input ~> " input
+
+if [ $input = "1" ]
+then
+clear
+        n="BangIvan"
+        while [ "$m" != "$n" ]
+        do
+        read -p "Code ~> " m
+sleep 2
+cd Tools
+sh sc
+        done
+
+elif [ $input = "2" ]
+then
+        cd Tools
+        python2 p.py
+
+elif [ $input = "3" ]
+then
+        cd Tools
+        python2 fb.py
+else
+        echo "\033[1;31mNOMOR TIDAK ADA"
+sleep 2
+fi
+done
